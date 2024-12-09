@@ -1,5 +1,6 @@
-function incrementar() {
-    let contador = 0;
+let contador = 0;
+
+function incrementar() { 
     contador++;
     document.getElementById("contador").innerText = contador;
 }
